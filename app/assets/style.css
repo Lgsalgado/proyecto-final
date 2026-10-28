@@ -1,0 +1,134 @@
+/* Estilos personalizados para la interfaz SquatAI */
+
+:root {
+  --primary-accent: #00d26a;
+  --danger-accent: #f8312f;
+  --warning-accent: #ffb020;
+  --info-accent: #00a8ff;
+  --bg-card: rgba(22, 27, 34, 0.75);
+  --border-card: rgba(255, 255, 255, 0.1);
+  --text-primary: #f0f6fc;
+  --text-secondary: #8b949e;
+}
+
+/* Encabezado y tarjetas */
+.squat-header-box {
+  background: linear-gradient(135deg, rgba(13, 17, 23, 0.95), rgba(22, 27, 34, 0.85));
+  border: 1px solid rgba(0, 210, 106, 0.3);
+  border-radius: 12px;
+  padding: 18px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.squat-title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.squat-subtitle {
+  font-size: 13px;
+  color: #8b949e;
+  margin-top: 4px;
+}
+
+/* Banner de Disclaimer Ético y Legal */
+.ethical-disclaimer-banner {
+  background: linear-gradient(90deg, rgba(248, 49, 47, 0.15), rgba(255, 176, 32, 0.15));
+  border-left: 4px solid #ffb020;
+  border-radius: 6px;
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  color: #e6edf3;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Tarjeta de Métricas / Diagnóstico */
+.biomech-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 15px;
+  backdrop-filter: blur(8px);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.biomech-card:hover {
+  border-color: rgba(0, 210, 106, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Insignias de confianza */
+.badge-confidence-high {
+  background-color: rgba(0, 210, 106, 0.2);
+  color: #00d26a;
+  border: 1px solid #00d26a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.badge-confidence-mid {
+  background-color: rgba(255, 176, 32, 0.2);
+  color: #ffb020;
+  border: 1px solid #ffb020;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.badge-confidence-low {
+  background-color: rgba(248, 49, 47, 0.2);
+  color: #f8312f;
+  border: 1px solid #f8312f;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+}
+
+/* Tabla de valores angulares */
+.feature-pill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 8px 12px;
+  text-align: center;
+  margin: 4px;
+}
+
+.feature-pill-label {
+  font-size: 11px;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.feature-pill-val {
+  font-size: 16px;
+  font-weight: 700;
+  color: #58a6ff;
+}
+
+/* Protocolo de fatiga */
+.fatigue-alert-box {
+  background-color: rgba(248, 49, 47, 0.2);
+  border: 1px solid #f8312f;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin: 15px 0;
+  color: #ffa198;
+}

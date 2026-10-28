@@ -1,0 +1,94 @@
+[
+  {
+    "id": "correct",
+    "name_es": "Técnica Correcta (Paralelo Óptimo)",
+    "name_en": "Correct Technique (Optimal Parallel)",
+    "expected_class_id": 0,
+    "expected_class_name": "Técnica Correcta",
+    "description_es": "Sentadilla completa rompiendo el paralelo de manera controlada, con el tronco alineado en ángulo neutro y sin colapso medial de rodillas.",
+    "description_en": "Full squat breaking parallel in a controlled manner, trunk aligned in neutral position, and no medial knee collapse.",
+    "features": {
+      "knee_angle_left": 165.92,
+      "knee_angle_right": 168.95,
+      "hip_angle_left": 170.24,
+      "hip_angle_right": 158.89,
+      "ankle_angle_left": 122.38,
+      "ankle_angle_right": 128.52,
+      "knee_asymmetry_mm": 17.28,
+      "squat_depth_deg": 167.43,
+      "trunk_lean_deg": 1.01,
+      "angular_velocity": 1.66,
+      "valgus_coeff": 0.34,
+      "hip_shoulder_ratio": 0.71
+    }
+  },
+  {
+    "id": "valgus",
+    "name_es": "Valgo Dinámico de Rodilla (Knee Valgus)",
+    "name_en": "Dynamic Knee Valgus",
+    "expected_class_id": 1,
+    "expected_class_name": "Valgo Dinámico de Rodilla",
+    "description_es": "Colapso medial de las rodillas hacia adentro durante la transición de inflexión y ascenso concéntrico, elevando el estrés patelofemoral.",
+    "description_en": "Inward medial collapse of knees during bottom inflection and concentric ascent, increasing patellofemoral stress.",
+    "features": {
+      "knee_angle_left": 100.5,
+      "knee_angle_right": 75.0,
+      "hip_angle_left": 75.7,
+      "hip_angle_right": 68.18,
+      "ankle_angle_left": 30.0,
+      "ankle_angle_right": 30.0,
+      "knee_asymmetry_mm": 55.0,
+      "squat_depth_deg": 83.31,
+      "trunk_lean_deg": 21.58,
+      "angular_velocity": 34.46,
+      "valgus_coeff": 0.26,
+      "hip_shoulder_ratio": 0.71
+    }
+  },
+  {
+    "id": "cifosis",
+    "name_es": "Cifosis Lumbar / Butt Wink",
+    "name_en": "Lumbar Kyphosis / Butt Wink",
+    "expected_class_id": 2,
+    "expected_class_name": "Cifosis Lumbar / Butt Wink",
+    "description_es": "Inclinación excesiva del tronco anterior o retroversión pélvica pronunciada en el punto de máxima flexión, incrementando fuerzas de cizallamiento en L4-L5.",
+    "description_en": "Excessive anterior trunk lean or pronounced pelvic retroversion at maximum flexion, increasing shear forces at L4-L5.",
+    "features": {
+      "knee_angle_left": 90.84,
+      "knee_angle_right": 99.33,
+      "hip_angle_left": 140.0,
+      "hip_angle_right": 140.0,
+      "ankle_angle_left": 121.55,
+      "ankle_angle_right": 115.71,
+      "knee_asymmetry_mm": 18.33,
+      "squat_depth_deg": 90.0,
+      "trunk_lean_deg": 45.0,
+      "angular_velocity": 20.08,
+      "valgus_coeff": 0.13,
+      "hip_shoulder_ratio": 0.78
+    }
+  },
+  {
+    "id": "depth",
+    "name_es": "Profundidad Insuficiente (Media Sentadilla)",
+    "name_en": "Insufficient Depth (Partial Squat)",
+    "expected_class_id": 3,
+    "expected_class_name": "Profundidad Insuficiente",
+    "description_es": "El ángulo femorotibial no alcanza el paralelo (>90°), desacelerando antes de la flexión requerida con subactivación glútea.",
+    "description_en": "Femoro-tibial angle does not reach parallel (>90°), stopping prematurely before target flexion with suboptimal gluteal drive.",
+    "features": {
+      "knee_angle_left": 115.05,
+      "knee_angle_right": 116.06,
+      "hip_angle_left": 107.79,
+      "hip_angle_right": 100.0,
+      "ankle_angle_left": 124.15,
+      "ankle_angle_right": 123.64,
+      "knee_asymmetry_mm": 9.65,
+      "squat_depth_deg": 112.25,
+      "trunk_lean_deg": 11.93,
+      "angular_velocity": 231.38,
+      "valgus_coeff": 0.08,
+      "hip_shoulder_ratio": 0.69
+    }
+  }
+]
