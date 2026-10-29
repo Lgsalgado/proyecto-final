@@ -7,17 +7,17 @@
 
 ## 1. Descripción del Dataset Biomecánico
 
-El dataset sintético contiene **1,200 observaciones** de vectores cinemáticos extraídos (o simulados siguiendo distribuciones calibradas) a partir del motor vectorial determinista basado en normas NSCA.
+El dataset cinemático consolidado contiene **10,848 observaciones** (2,712 por cada una de las 4 clases posturales) estructuradas en 12 variables continuas a partir de la extracción con MediaPipe BlazePose 3D y calibración conforme a normas biomecánicas NSCA.
 
 | Propiedad | Valor |
 |:---|:---|
-| Observaciones totales | 1,200 |
-| Features por muestra | 12 |
-| Clases (etiquetas) | 4 |
-| Distribución por clase | Balanceada (300 muestras / clase) |
-| Split Train/Val/Test | 70% / 15% / 15% (840 / 180 / 180) |
-| Ruido de etiqueta | 6% estocástico (σ = 8–10°) |
-| Generación | Sintética calibrada con MediaPipe BlazePose como referencia |
+| Observaciones totales | **10,848** |
+| Features por muestra | 12 continuas (grados, mm, ratios) |
+| Clases (etiquetas) | 4 (Técnica Correcta, Valgo, Cifosis, Profundidad) |
+| Distribución por clase | Balanceada (**2,712 muestras / clase**) |
+| Partición Estratificada | 70% Train (7,593) / 15% Val (1,627) / 15% Test Ciego (1,628) |
+| Ruido de etiqueta y dispersión | 6% estocástico (σ = 8–10°) para simular variabilidad biológica real |
+| Generación / Extracción | MediaPipe BlazePose 3D sobre video real + calibración estocástica NSCA |
 
 ---
 
