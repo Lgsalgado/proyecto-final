@@ -18,12 +18,12 @@ data/
 | Propiedad | Valor |
 |:---|:---|
 | Archivo | `data/processed/squat_features.csv` |
-| Observaciones | 1,200 |
+| Observaciones totales | 10,848 (2,712 por clase balanceada) |
 | Features | 12 cinemáticas continuas |
 | Etiqueta | `label` (int: 0–3) |
-| Clases | 4 (balanceadas: 300 por clase) |
-| Split | 70% Train / 15% Val / 15% Test Ciego |
-| Generación | Sintética calibrada (σ=8–10°, 6% label noise, seed=42) |
+| Clases | 4 (Técnica Correcta, Valgo, Cifosis, Profundidad) |
+| Split | 70% Train (7,593) / 15% Val (1,627) / 15% Test Ciego (1,628) |
+| Generación | Extracción MediaPipe BlazePose sobre video real + calibración estocástica NSCA (σ=8–10°, 6% label noise, seed=42) |
 
 ## Diccionario de Variables (12 Features)
 
